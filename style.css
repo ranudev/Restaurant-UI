@@ -1,0 +1,90 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("pexels-maxyne-barcel-10402282 1.png");
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-repeat: no-repeat;
+   background-size: cover;
+    font-family: 'Red Rose', serif;;
+
+}
+.container{
+
+ overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-around;
+}
+.logo{
+
+
+    margin-left: -90px;
+    height: 50px;
+    width: 100px;
+}
+  ul li{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ li{
+    float: left;
+ }
+ li a{
+   padding: 30px; 
+   color: yellow;
+   font-size:1.5em;
+   cursor: pointer;
+   text-decoration: none;
+
+ }
+ #order{
+    /* border-radius: 1px; */
+    padding: 1px;
+    font-size: large;
+    height: 40px;
+    width: 100px;
+    background-color:red;
+    margin-right: -50px;
+    border-color: red;
+    cursor: pointer;
+ }
+ #menu{
+
+    /* border-radius: 1px; */
+    padding: 2px;
+    font-size: xx-large;
+    height: 100px;
+    width: 300px; 
+    color: white;
+    background-color:red;
+    border-color: red;
+    cursor: pointer;
+    position: absolute;
+    
+ }
+ .menu{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -45px;
+    font-size: 7em;
+    text-align: center;
+    color: yellow;
+
+ }
+ .scroll{
+float: right;
+margin-right: 50px;
+
+ }
